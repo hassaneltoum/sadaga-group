@@ -13,6 +13,7 @@ const t = {
     'nav.activities': 'Activities',
     'nav.gallery':    'Gallery',
     'nav.involved':   'Get Involved',
+    'nav.roots':      'Roots to Wellbeing',
     'nav.contact':    'Contact',
 
     /* Hero */
@@ -28,6 +29,13 @@ const t = {
     'hero.stat1.lbl': 'Active Members',
     'hero.stat2.num': '20+',
     'hero.stat2.lbl': 'Years of Impact',
+
+    /* Anniversary */
+    'anniversary.topLabel':    'IT’S OUR 20TH ANNIVERSARY',
+    'anniversary.estYear':     'EST. 2006',
+    'anniversary.headlineLarge': 'CELEBRATING',
+    'anniversary.headlineSub':  '20 YEARS OF COMMUNITY',
+    'anniversary.description':  'Since 2004, Sadaga Group has created a safe and welcoming space for Arabic-speaking women and families across Bristol.',
 
     /* About */
     'about.tag':   'Who We Are',
@@ -90,17 +98,19 @@ const t = {
     'gal.sub':   'Glimpses of the warmth, creativity and community spirit that defines who we are.',
 
     /* Testimonials */
-    'test.tag':   'Community Voices',
-    'test.title': 'What our members say',
-    'test.1.text': '"Coming to Sadaga every Friday has changed my life. I came knowing nobody in Bristol, and now I have real friends and I feel confident going out on my own."',
-    'test.1.name': 'Nadia M.',
-    'test.1.role': 'Member since 2019',
-    'test.2.text': '"The workshops are so valuable. I learned about my health in a comfortable, safe space with women who understand me. I feel so much stronger now."',
-    'test.2.name': 'Fatima A.',
-    'test.2.role': 'Member since 2021',
-    'test.3.text': '"Sadaga gave me confidence I never had. The arts and crafts sessions are wonderful, but honestly it is the community, the friendships, that mean everything."',
-    'test.3.name': 'Sara H.',
-    'test.3.role': 'Member since 2017',
+    'test.tag':    'Community Voices',
+    'test.title':  'What our members say',
+    'test.name':   'Sadaga Member',
+    'test.1.text': 'My second home, where I find comfort among my sisters without restrictions 💝',
+    'test.2.text': 'I have benefited greatly from my time with you, gaining valuable experiences and skills that have significantly contributed to my development. Thank you for your support, cooperation, and dedication. I wish you continued success.',
+    'test.3.text': 'Sadaga is an empowering, caring, supportive team.',
+    'test.4.text': 'Wonderful people, like sisters with beautiful souls, who make you feel like you\'re among family. A place to relax and reduce daily stress — I can\'t imagine being away from home without this group.',
+    'test.5.text': 'Amidst the hustle and bustle of life, Sadaga was one of the few places that brought peace to the heart 💜 Thank you to every beautiful soul who was the reason for a moment of joy or a kind word.',
+    'test.6.text': 'Thank you for this wonderful group. Your presence brings positive energy, love, and respect. I am so happy to be among you, and I hope our sisterhood and friendship will last.',
+    'test.7.text': 'Sadaga group, a miniature homeland. In every corner we find good souls full of love and sisterly bonds — a place of warmth and positive energy. Congratulations in advance on twenty years of renewed giving.',
+    'test.8.text': 'Sadaga group is always helping people grow step by step.',
+    'test.9.text': 'Sadaga ♥️ is a gathering of loved ones and things from the old days.',
+    'test.10.text': 'Every day with the Sadaga group makes me feel like I\'m back in my mother\'s home.',
 
     /* Partners */
     'part.tag':   'Our Supporters',
@@ -120,6 +130,23 @@ const t = {
     'cta.4.title': 'Partner With Us',
     'cta.4.desc':  'Organisations can collaborate and support our work.',
     'cta.btn':   'Get in Touch',
+
+    /* Roots to Wellbeing */
+    'roots.tag':    'New Programme',
+    'roots.title':  'Sadaga Group - Roots to Wellbeing',
+    'roots.sub':    'A nature-based support group for Arabic-speaking women in the Lawrence Hill area, run in partnership with Your Park.',
+    'roots.p1':     'The group offers a safe, women-only space for those experiencing isolation or life challenges affecting their wellbeing. Women may come with a female supporter if needed.',
+    'roots.p2':     'Sessions use the benefits of nature to help women relax, connect, and take part in activities such as arts and crafts, walks, relaxation, and peer support. Each session ends with a free shared meal, shaped by the group\'s preferences. Transport can be provided if required.',
+    'roots.p3':     'Between sessions, Sadaga\'s project lead will stay in touch with participants to offer support and signposting.',
+    'roots.d1.lbl': 'When',
+    'roots.d1.val': 'Thursdays 10am–12:30pm · Starting 23 April · 10 weeks',
+    'roots.d2.lbl': 'Where',
+    'roots.d2.val': 'Wellspring Centre, Beam Street, Bristol',
+    'roots.d3.lbl': 'Who is it for',
+    'roots.d3.val': 'Arabic-speaking women in Lawrence Hill experiencing isolation or wellbeing challenges',
+    'roots.d4.lbl': 'How to Refer',
+    'roots.d4.val': 'Self-refer, or be referred by a professional. Contact Azza at Sadaga: <a href="mailto:info@sadaga.co.uk">info@sadaga.co.uk</a> or Your Park: <a href="mailto:roots@yourpark.org.uk">roots@yourpark.org.uk</a>',
+    'roots.collab': 'In collaboration with',
 
     /* Contact */
     'con.tag':    'Contact',
@@ -158,6 +185,7 @@ const t = {
     'nav.activities': 'الأنشطة',
     'nav.gallery':    'معرض الصور',
     'nav.involved':   'انضمي إلينا',
+    'nav.roots':      'Roots to Wellbeing',
     'nav.contact':    'اتصلي بنا',
 
     /* Hero */
@@ -174,9 +202,16 @@ const t = {
     'hero.stat2.num': '+20',
     'hero.stat2.lbl': 'سنوات من العطاء',
 
+    /* Anniversary */
+    'anniversary.topLabel':    'الذكرى العشرون',
+    'anniversary.estYear':     'تأسست 2006',
+    'anniversary.headlineLarge': 'نحتفل',
+    'anniversary.headlineSub':  'بـ 20 عاماً من المجتمع',
+    'anniversary.description':  'منذ عام 2004، أنشأت مجموعة صدقة مساحة آمنة ومرحّبة للنساء والأسر الناطقات بالعربية في بريستول.',
+
     /* About */
     'about.tag':   'من نحن',
-    'about.title': 'بيت بعيد عن البيت للنساء الناطقات بالعربية',
+    'about.title': 'مجتمع دافئ ومريح للنساء الناطقات بالعربية',
     'about.p1':    'مجموعة صدقة منظمة مجتمعية متجذّرة في مدينة بريستول، تكرّس جهودها لدعم النساء الناطقات بالعربية وأسرهن. نلتقي كل جمعة في مركز إيستون المسيحي للعائلة، مكان دافئ ومرحِّب تستطيع فيه المرأة التواصل مع الآخرين والتعلم والازدهار.',
     'about.p2':    'مهمتنا هي القضاء على العزلة الاجتماعية داخل المجتمع الناطق بالعربية، وبناء الثقة بالنفس والمهارات، وتشجيع المشاركة الفاعلة في المجتمع الأوسع في بريستول.',
     'about.val1':  'القضاء على العزلة الاجتماعية',
@@ -235,17 +270,19 @@ const t = {
     'gal.sub':   'لمحات من الدفء والإبداع وروح المجتمع التي تُعرِّفنا.',
 
     /* Testimonials */
-    'test.tag':   'أصوات المجتمع',
-    'test.title': 'ماذا تقول عضواتنا',
-    'test.1.text': '«الحضور إلى صدقة كل جمعة غيَّر حياتي. جئتُ إلى بريستول ولا أعرف أحداً، والآن لديّ صديقات حقيقيات وأشعر بثقة في الخروج وحدي.»',
-    'test.1.name': 'نادية م.',
-    'test.1.role': 'عضو منذ 2019',
-    'test.2.text': '«ورش العمل قيّمة جداً. تعلمتُ عن صحتي في مساحة مريحة وآمنة مع نساء يفهمنني. أشعر الآن بقوة كبيرة.»',
-    'test.2.name': 'فاطمة أ.',
-    'test.2.role': 'عضو منذ 2021',
-    'test.3.text': '«صدقة منحتني ثقة لم تكن لديّ من قبل. جلسات الفنون والحرف رائعة، لكن المجتمع والصداقات هي التي تعني كل شيء.»',
-    'test.3.name': 'سارة هـ.',
-    'test.3.role': 'عضو منذ 2017',
+    'test.tag':    'أصوات المجتمع',
+    'test.title':  'ماذا تقول عضواتنا',
+    'test.name':   'عضوة في صدقة',
+    'test.1.text': 'بيتي الثاني، بلقي فيه راحتي وسط اخواتي بدون قيود 💝',
+    'test.2.text': 'استفدت كثيراً من وجودي معكم، واكتسبت خبرات ومهارات قيمة كان لها أثر كبير في تطويري. أشكركم بجزيل الشكر على دعمكم وتعاونكم وحرصكم. وأتمنى لكم دوام التوفيق والنجاح.',
+    'test.3.text': 'صدقة فريق يمنحك القوة والاهتمام والدعم.',
+    'test.4.text': 'ناس حلوين وأخوات بروح جميلة يحسسوك أنك وسط أهلك. مكان للتنفيس وتقليل الضغوطات اليومية — ما أتخيل الغربة بدون هذه المجموعة.',
+    'test.5.text': 'وسط زحمة الحياة، قروب الصداقة كان من الأماكن القليلة التي تُدخل الراحة للقلب 💜 شكراً لكل روح جميلة كانت سبباً في لحظة فرح أو كلمة طيبة.',
+    'test.6.text': 'شكراً لكم على هذا القروب الجميل. وجودكم يعطي طاقة إيجابية ومحبة واحترام. أنا سعيدة جداً أني بينكم، وأتمنى أن تدوم الأخوة والصداقة بيننا.',
+    'test.7.text': 'قروب الصداقة وطن مصغر. في كل زاوية فيه نجد أرواحاً طيبة مفعمة بالحب والترابط الأخوي. مكان نستشعر فيه الدفء ونجذب الطاقات الإيجابية. مبروك مقدماً على عشرين عاماً من العطاء المتجدد.',
+    'test.8.text': 'قروب صدقة دائماً يساعد الناس على النمو خطوة بخطوة.',
+    'test.9.text': 'الصداقة ♥️ لمّة الحبايب وذكريات زمان.',
+    'test.10.text': 'كل يوم مع مجموعة صدقة يحسسني أني رجعت لبيت أمي.',
 
     /* Partners */
     'part.tag':   'داعمونا',
@@ -265,6 +302,23 @@ const t = {
     'cta.4.title': 'تعاوني معنا',
     'cta.4.desc':  'يمكن للمنظمات التعاون ودعم عملنا.',
     'cta.btn':   'تواصلي معنا',
+
+    /* Roots to Wellbeing */
+    'roots.tag':    'برنامج جديد',
+    'roots.title':  'Sadaga Group - Roots to Wellbeing',
+    'roots.sub':    'مجموعة دعم تعتمد على الطبيعة للنساء الناطقات بالعربية في منطقة لورانس هيل، بالشراكة مع منظمة يور بارك.',
+    'roots.p1':     'تُقدّم المجموعة مساحة آمنة مخصصة للنساء فقط، لمن يعانين من العزلة أو تحديات الحياة التي تؤثر على صحتهن النفسية. يمكن للمرأة أن تأتي برفقة داعمة أنثى إذا لزم الأمر.',
+    'roots.p2':     'تستخدم الجلسات فوائد الطبيعة لمساعدة النساء على الاسترخاء والتواصل والمشاركة في أنشطة مثل الفنون والحرف اليدوية والمشي والاسترخاء ودعم الأقران. تنتهي كل جلسة بوجبة مشتركة مجانية، تتشكّل وفق تفضيلات المجموعة. يمكن توفير وسيلة نقل عند الحاجة.',
+    'roots.p3':     'بين الجلسات، ستبقى قائدة مشروع صدقة على تواصل مع المشاركات لتقديم الدعم والإرشاد.',
+    'roots.d1.lbl': 'الموعد',
+    'roots.d1.val': 'الخميس 10 صباحاً – 12:30 ظهراً · يبدأ 23 أبريل · 10 أسابيع',
+    'roots.d2.lbl': 'المكان',
+    'roots.d2.val': 'مركز ويلسبرينج، شارع بيم، بريستول',
+    'roots.d3.lbl': 'لمن هذا البرنامج',
+    'roots.d3.val': 'النساء الناطقات بالعربية في منطقة لورانس هيل اللواتي يعانين من العزلة أو تحديات الرفاه',
+    'roots.d4.lbl': 'كيفية التسجيل',
+    'roots.d4.val': 'يمكن التسجيل الذاتي أو الإحالة عبر متخصص. تواصلي مع عزة في صدقة: <a href="mailto:info@sadaga.co.uk">info@sadaga.co.uk</a> أو يور بارك: <a href="mailto:roots@yourpark.org.uk">roots@yourpark.org.uk</a>',
+    'roots.collab': 'بالتعاون مع',
 
     /* Contact */
     'con.tag':    'اتصلي بنا',
@@ -323,6 +377,11 @@ function _doApplyLanguage(lang) {
   document.querySelectorAll('.lang-toggle__btn').forEach(btn => {
     btn.classList.toggle('active', btn.dataset.lang === lang);
   });
+
+  const annivImg = document.getElementById('anniv-img');
+  if (annivImg) {
+    annivImg.src = lang === 'ar' ? 'images/anniversary_ar.png' : 'images/anniversary.png';
+  }
 
   document.querySelectorAll('[data-i18n]').forEach(el => {
     const key = el.dataset.i18n;
@@ -423,6 +482,34 @@ const counterObserver = new IntersectionObserver(entries => {
 
 document.querySelectorAll('[data-count]').forEach(el => counterObserver.observe(el));
 
+/* ---- Anniversary confetti ---- */
+function initAnniversaryConfetti() {
+  const container = document.querySelector('.anniversary__confetti');
+  if (!container) return;
+  container.innerHTML = '';
+  const total = 30;
+  for (let i = 0; i < total; i += 1) {
+    const piece = document.createElement('span');
+    piece.classList.add('anniv-piece');
+    const isRibbon = Math.random() > 0.4;
+    piece.classList.add(isRibbon ? 'anniv-piece--ribbon' : 'anniv-piece--block');
+    piece.classList.add(i % 3 === 0 ? 'anniv-piece--front' : 'anniv-piece--back');
+
+    const left = Math.random() * 92;
+    const duration = 7 + Math.random() * 6;
+    const delay = -Math.random() * 10;
+    const drift = (Math.random() * 60 - 30).toFixed(1);
+    const rotation = (Math.random() * 360).toFixed(1);
+
+    piece.style.left = `${left}%`;
+    piece.style.animationDelay = `${delay}s`;
+    piece.style.animationDuration = `${duration}s`;
+    piece.style.setProperty('--drift-x', `${drift}px`);
+    piece.style.setProperty('--rotation', `${rotation}deg`);
+    container.appendChild(piece);
+  }
+}
+
 /* ---- Contact form ---- */
 const contactForm = document.getElementById('contactForm');
 contactForm?.addEventListener('submit', e => {
@@ -463,33 +550,52 @@ function initTestimonialsCarousel() {
   const carousel = document.getElementById('testimonialsCarousel');
   if (!carousel) return;
 
-  const track  = carousel.querySelector('.testimonials__track');
-  const slides = Array.from(carousel.querySelectorAll('.testimonial-card'));
-  const dots   = Array.from(carousel.querySelectorAll('.testimonials__dot'));
+  const track      = carousel.querySelector('.testimonials__track');
+  const realSlides = Array.from(carousel.querySelectorAll('.testimonial-card'));
+  const dots       = Array.from(carousel.querySelectorAll('.testimonials__dot'));
+  const total      = realSlides.length;
 
-  let current    = 0;
-  let autoTimer  = null;
+  const isRTL = () => document.documentElement.getAttribute('dir') === 'rtl';
+  const visibleCount = () => window.innerWidth < 640 ? 1 : 3;
+
+  // Clone first few cards for seamless looping
+  realSlides.slice(0, 3).forEach(card => {
+    track.appendChild(card.cloneNode(true));
+  });
+
+  let current   = 0;
+  let autoTimer = null;
   let touchStartX = 0;
 
-  const isMobile = () => window.innerWidth < 640;
-  const isRTL    = () => document.documentElement.getAttribute('dir') === 'rtl';
+  function cardWidth() {
+    const gap = parseFloat(getComputedStyle(track).gap) || 0;
+    return realSlides[0].offsetWidth + gap;
+  }
 
-  function setPosition(index, animate) {
-    if (!isMobile()) return;
-    current = ((index % slides.length) + slides.length) % slides.length;
+  function setPosition(index, animate = true) {
     if (animate === false) track.style.transition = 'none';
-    const sign = isRTL() ? '' : '-';
-    track.style.transform = `translateX(${sign}${current * 100}%)`;
+    const sign = isRTL() ? 1 : -1;
+    track.style.transform = `translateX(${sign * index * cardWidth()}px)`;
     if (animate === false) {
-      track.getBoundingClientRect(); // force reflow
+      track.getBoundingClientRect();
       track.style.transition = '';
     }
-    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    // Wrap: when we've scrolled past the real slides, jump back silently
+    if (index >= total) {
+      setTimeout(() => {
+        current = index - total;
+        track.style.transition = 'none';
+        track.style.transform = `translateX(${sign * current * cardWidth()}px)`;
+        track.getBoundingClientRect();
+        track.style.transition = '';
+      }, 560);
+    }
+    current = index;
+    dots.forEach((d, i) => d.classList.toggle('active', i === (index % total)));
   }
 
   function startAuto() {
     clearInterval(autoTimer);
-    if (!isMobile()) return;
     autoTimer = setInterval(() => setPosition(current + 1), 6000);
   }
 
@@ -513,28 +619,10 @@ function initTestimonialsCarousel() {
     startAuto();
   }, { passive: true });
 
-  carousel.addEventListener('mouseenter', stopAuto);
-  carousel.addEventListener('mouseleave', () => { if (isMobile()) startAuto(); });
+  window.addEventListener('resize', () => setPosition(current, false));
 
-  let wasMobile = isMobile();
-  window.addEventListener('resize', () => {
-    const mobile = isMobile();
-    if (mobile !== wasMobile) {
-      wasMobile = mobile;
-      if (!mobile) {
-        stopAuto();
-        track.style.transform = '';
-      } else {
-        setPosition(0, false);
-        startAuto();
-      }
-    }
-  });
-
-  if (isMobile()) {
-    setPosition(0, false);
-    startAuto();
-  }
+  setPosition(0, false);
+  startAuto();
 }
 
 /* ---- Init ---- */
