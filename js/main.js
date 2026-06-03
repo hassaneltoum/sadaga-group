@@ -13,18 +13,18 @@ const t = {
     'nav.activities': 'Activities',
     'nav.gallery':    'Gallery',
     'nav.involved':   'Get Involved',
-    'nav.roots':      'Roots to Wellbeing',
+    'nav.roots':      'Wellbeing Activities',
     'nav.contact':    'Contact',
 
     /* Hero */
     'hero.eyebrow':   'Bristol · Community · Wellbeing',
-    'hero.title':     'Supporting Arabic-speaking <em>women and families</em> in Bristol',
+    'hero.title':     'Supporting Arabic-speaking <em>women</em> in Bristol',
     'hero.sub':       'Creating a safe and welcoming space for learning, wellbeing, confidence and community, every Friday in Easton.',
     'hero.cta1':      'Join Our Community',
     'hero.cta2':      'Explore Activities',
     'hero.trust1':    'Every Friday',
     'hero.trust2':    '224+ Members',
-    'hero.trust3':    'Est. 2004',
+    'hero.trust3':    'Est. 2006',
     'hero.stat1.num': '224+',
     'hero.stat1.lbl': 'Active Members',
     'hero.stat2.num': '20+',
@@ -35,12 +35,12 @@ const t = {
     'anniversary.estYear':     'EST. 2006',
     'anniversary.headlineLarge': 'CELEBRATING',
     'anniversary.headlineSub':  '20 YEARS OF COMMUNITY',
-    'anniversary.description':  'Since 2004, Sadaga Group has created a safe and welcoming space for Arabic-speaking women and families across Bristol.',
+    'anniversary.description':  'Since 2006, Sadaga Group has created a safe and welcoming space for Arabic-speaking women across Bristol.',
 
     /* About */
     'about.tag':   'Who We Are',
     'about.title': 'A home away from home for Arabic-speaking women',
-    'about.p1':    'Sadaga Group is a community organisation rooted in Bristol, dedicated to supporting Arabic-speaking women and their families. We bring people together every Friday at Easton Christian Family Centre, a warm, welcoming space where women can connect, learn, and thrive.',
+    'about.p1':    'Sadaga Group is a community organisation rooted in Bristol, dedicated to supporting Arabic-speaking women. We bring people together every Friday at Easton Christian Family Centre, a warm, welcoming space where women can connect, learn, and thrive.',
     'about.p2':    'Our mission is to eliminate social isolation within the Arabic-speaking community, build confidence and skills, and encourage meaningful participation in Bristol\'s wider society.',
     'about.val1':  'Eliminate social isolation',
     'about.val2':  'Build skills & confidence',
@@ -56,7 +56,7 @@ const t = {
     'impact.1.num':   '224',
     'impact.1.suf':   '+',
     'impact.1.lbl':   'Active Members',
-    'impact.1.desc':  'Women and families across the Bristol community',
+    'impact.1.desc':  'Women across the Bristol community',
     'impact.2.num':   '450',
     'impact.2.suf':   '+',
     'impact.2.lbl':   'Workshops Delivered',
@@ -64,7 +64,7 @@ const t = {
     'impact.3.num':   '20',
     'impact.3.suf':   '+',
     'impact.3.lbl':   'Years of Expertise',
-    'impact.3.desc':  'Trusted community support since 2004',
+    'impact.3.desc':  'Trusted community support since 2006',
 
     /* Activities */
     'act.tag':   'What We Do',
@@ -133,7 +133,8 @@ const t = {
 
     /* Roots to Wellbeing */
     'roots.tag':    'New Programme',
-    'roots.title':  'Sadaga Group - Roots to Wellbeing',
+    'roots.title':  'Wellbeing Activities',
+    'roots.current': 'Current Activity: Roots to Wellbeing',
     'roots.sub':    'A nature-based support group for Arabic-speaking women in the Lawrence Hill area, run in partnership with Your Park.',
     'roots.p1':     'The group offers a safe, women-only space for those experiencing isolation or life challenges affecting their wellbeing. Women may come with a female supporter if needed.',
     'roots.p2':     'Sessions use the benefits of nature to help women relax, connect, and take part in activities such as arts and crafts, walks, relaxation, and peer support. Each session ends with a free shared meal, shaped by the group\'s preferences. Transport can be provided if required.',
@@ -141,7 +142,7 @@ const t = {
     'roots.d1.lbl': 'When',
     'roots.d1.val': 'Thursdays 10am–12:30pm · Starting 23 April · 10 weeks',
     'roots.d2.lbl': 'Where',
-    'roots.d2.val': 'Wellspring Centre, Beam Street, Bristol',
+    'roots.d2.val': 'Wellspring Centre<br>Beam Street<br>Bristol<br>BS5 9QY',
     'roots.d3.lbl': 'Who is it for',
     'roots.d3.val': 'Arabic-speaking women in Lawrence Hill experiencing isolation or wellbeing challenges',
     'roots.d4.lbl': 'How to Refer',
@@ -169,9 +170,19 @@ const t = {
     'con.form.subject.opt2': 'Volunteering',
     'con.form.subject.opt3': 'Partnership',
     'con.form.subject.opt4': 'General Enquiry',
+    'con.form.subject.opt5': 'Other',
+    'con.form.subject.other.lbl': 'Please specify',
+    'con.form.success.title': 'Message sent!',
+    'con.form.success.body':  'Thank you for contacting Sadaga Group. We have received your enquiry and will get back to you as soon as possible.',
+    'con.form.error.title':   'Something went wrong',
+    'con.form.error.body':    "We're sorry, something went wrong while sending your message. Please try again or contact us directly at info@sadaga.co.uk.",
+    'con.form.val.required':  'This field is required.',
+    'con.form.val.email':     'Please enter a valid email address.',
+    'con.form.val.subject':   'Please select a subject.',
+    'con.form.sending':       'Sending…',
 
     /* Footer */
-    'foot.desc':     'A community group for Arabic-speaking women and families in Bristol, UK. Meeting every Friday since 2004.',
+    'foot.desc':     'A community group for Arabic-speaking women in Bristol, UK. Meeting every Friday since 2006.',
     'foot.nav':      'Navigation',
     'foot.contact':  'Contact',
     'foot.follow':   'Follow Us',
@@ -185,18 +196,18 @@ const t = {
     'nav.activities': 'الأنشطة',
     'nav.gallery':    'معرض الصور',
     'nav.involved':   'انضمي إلينا',
-    'nav.roots':      'Roots to Wellbeing',
-    'nav.contact':    'اتصلي بنا',
+    'nav.roots':      'Wellbeing Activities',
+    'nav.contact':    'تواصلي معنا',
 
     /* Hero */
     'hero.eyebrow':   'بريستول · مجتمع · صحة ورعاية',
-    'hero.title':     'دعم النساء والأسر <em>الناطقات بالعربية</em> في بريستول',
+    'hero.title':     'دعم <em>السيدات الناطقات بالعربية</em> في بريستول',
     'hero.sub':       'نخلق مساحة آمنة ومرحِّبة للتعلم والرعاية الصحية وبناء الثقة بالنفس وتعزيز روح المجتمع، كل يوم جمعة في إيستون.',
     'hero.cta1':      'انضمي إلى مجتمعنا',
     'hero.cta2':      'استكشفي الأنشطة',
     'hero.trust1':    'كل يوم جمعة',
     'hero.trust2':    '+224 عضو',
-    'hero.trust3':    'منذ 2004',
+    'hero.trust3':    'منذ 2006',
     'hero.stat1.num': '+224',
     'hero.stat1.lbl': 'عضو نشط',
     'hero.stat2.num': '+20',
@@ -207,12 +218,12 @@ const t = {
     'anniversary.estYear':     'تأسست 2006',
     'anniversary.headlineLarge': 'نحتفل',
     'anniversary.headlineSub':  'بـ 20 عاماً من المجتمع',
-    'anniversary.description':  'منذ عام 2004، أنشأت مجموعة صدقة مساحة آمنة ومرحّبة للنساء والأسر الناطقات بالعربية في بريستول.',
+    'anniversary.description':  'منذ عام 2006، أنشأت الصداقة مساحة آمنة ومرحّبة للسيدات الناطقات بالعربية في بريستول.',
 
     /* About */
     'about.tag':   'من نحن',
     'about.title': 'مجتمع دافئ ومريح للنساء الناطقات بالعربية',
-    'about.p1':    'مجموعة صدقة منظمة مجتمعية متجذّرة في مدينة بريستول، تكرّس جهودها لدعم النساء الناطقات بالعربية وأسرهن. نلتقي كل جمعة في مركز إيستون المسيحي للعائلة، مكان دافئ ومرحِّب تستطيع فيه المرأة التواصل مع الآخرين والتعلم والازدهار.',
+    'about.p1':    'الصداقة منظمة مجتمعية متجذّرة في مدينة بريستول، تكرّس جهودها لدعم السيدات الناطقات بالعربية. نلتقي كل جمعة في مركز إيستون المسيحي للعائلة، مكان دافئ ومرحِّب تستطيع فيه السيدات التواصل مع الآخرين والتعلم والازدهار.',
     'about.p2':    'مهمتنا هي القضاء على العزلة الاجتماعية داخل المجتمع الناطق بالعربية، وبناء الثقة بالنفس والمهارات، وتشجيع المشاركة الفاعلة في المجتمع الأوسع في بريستول.',
     'about.val1':  'القضاء على العزلة الاجتماعية',
     'about.val2':  'بناء المهارات والثقة بالنفس',
@@ -228,7 +239,7 @@ const t = {
     'impact.1.num':   '224',
     'impact.1.suf':   '+',
     'impact.1.lbl':   'عضو نشط',
-    'impact.1.desc':  'نساء وأسر من مجتمع بريستول',
+    'impact.1.desc':  'سيدة عربية من بريستول',
     'impact.2.num':   '450',
     'impact.2.suf':   '+',
     'impact.2.lbl':   'ورشة عمل منجزة',
@@ -236,7 +247,7 @@ const t = {
     'impact.3.num':   '20',
     'impact.3.suf':   '+',
     'impact.3.lbl':   'عاماً من الخبرة',
-    'impact.3.desc':  'دعم مجتمعي موثوق منذ عام 2004',
+    'impact.3.desc':  'دعم مجتمعي موثوق منذ عام 2006',
 
     /* Activities */
     'act.tag':   'ماذا نقدم',
@@ -266,23 +277,23 @@ const t = {
 
     /* Gallery */
     'gal.tag':   'معرض الصور',
-    'gal.title': 'الحياة في مجموعة صدقة',
+    'gal.title': 'الحياة في مجموعة الصداقة',
     'gal.sub':   'لمحات من الدفء والإبداع وروح المجتمع التي تُعرِّفنا.',
 
     /* Testimonials */
     'test.tag':    'أصوات المجتمع',
-    'test.title':  'ماذا تقول عضواتنا',
-    'test.name':   'عضوة في صدقة',
+    'test.title':  'آراء من مجتمعنا',
+    'test.name':   'عضوة في الصداقة',
     'test.1.text': 'بيتي الثاني، بلقي فيه راحتي وسط اخواتي بدون قيود 💝',
     'test.2.text': 'استفدت كثيراً من وجودي معكم، واكتسبت خبرات ومهارات قيمة كان لها أثر كبير في تطويري. أشكركم بجزيل الشكر على دعمكم وتعاونكم وحرصكم. وأتمنى لكم دوام التوفيق والنجاح.',
-    'test.3.text': 'صدقة فريق يمنحك القوة والاهتمام والدعم.',
+    'test.3.text': 'الصداقة فريق يمنحك القوة والاهتمام والدعم.',
     'test.4.text': 'ناس حلوين وأخوات بروح جميلة يحسسوك أنك وسط أهلك. مكان للتنفيس وتقليل الضغوطات اليومية — ما أتخيل الغربة بدون هذه المجموعة.',
     'test.5.text': 'وسط زحمة الحياة، قروب الصداقة كان من الأماكن القليلة التي تُدخل الراحة للقلب 💜 شكراً لكل روح جميلة كانت سبباً في لحظة فرح أو كلمة طيبة.',
     'test.6.text': 'شكراً لكم على هذا القروب الجميل. وجودكم يعطي طاقة إيجابية ومحبة واحترام. أنا سعيدة جداً أني بينكم، وأتمنى أن تدوم الأخوة والصداقة بيننا.',
     'test.7.text': 'قروب الصداقة وطن مصغر. في كل زاوية فيه نجد أرواحاً طيبة مفعمة بالحب والترابط الأخوي. مكان نستشعر فيه الدفء ونجذب الطاقات الإيجابية. مبروك مقدماً على عشرين عاماً من العطاء المتجدد.',
-    'test.8.text': 'قروب صدقة دائماً يساعد الناس على النمو خطوة بخطوة.',
+    'test.8.text': 'قروب الصداقة دائماً يساعد الناس على النمو خطوة بخطوة.',
     'test.9.text': 'الصداقة ♥️ لمّة الحبايب وذكريات زمان.',
-    'test.10.text': 'كل يوم مع مجموعة صدقة يحسسني أني رجعت لبيت أمي.',
+    'test.10.text': 'كل يوم مع مجموعة الصداقة يحسسني أني رجعت لبيت أمي.',
 
     /* Partners */
     'part.tag':   'داعمونا',
@@ -292,7 +303,7 @@ const t = {
     /* CTA */
     'cta.tag':   'انضمي إلينا',
     'cta.title': 'كوني جزءاً من شيء ذي معنى',
-    'cta.sub':   'سواء أردتِ الانضمام إلى أنشطتنا أو التطوع أو الشراكة معنا، يوجد مكان لكِ في مجموعة صدقة.',
+    'cta.sub':   'سواء أردتِ الانضمام إلى أنشطتنا أو التطوع أو الشراكة معنا، يوجد مكان لكِ في مجموعة الصداقة.',
     'cta.1.title': 'انضمي إلى الأنشطة',
     'cta.1.desc':  'تعالي يوم الجمعة وستجدين ترحيباً حاراً.',
     'cta.2.title': 'تطوعي',
@@ -305,27 +316,28 @@ const t = {
 
     /* Roots to Wellbeing */
     'roots.tag':    'برنامج جديد',
-    'roots.title':  'Sadaga Group - Roots to Wellbeing',
+    'roots.title':  'أنشطة الرفاه',
+    'roots.current': 'النشاط الحالي: Roots to Wellbeing',
     'roots.sub':    'مجموعة دعم تعتمد على الطبيعة للنساء الناطقات بالعربية في منطقة لورانس هيل، بالشراكة مع منظمة يور بارك.',
     'roots.p1':     'تُقدّم المجموعة مساحة آمنة مخصصة للنساء فقط، لمن يعانين من العزلة أو تحديات الحياة التي تؤثر على صحتهن النفسية. يمكن للمرأة أن تأتي برفقة داعمة أنثى إذا لزم الأمر.',
-    'roots.p2':     'تستخدم الجلسات فوائد الطبيعة لمساعدة النساء على الاسترخاء والتواصل والمشاركة في أنشطة مثل الفنون والحرف اليدوية والمشي والاسترخاء ودعم الأقران. تنتهي كل جلسة بوجبة مشتركة مجانية، تتشكّل وفق تفضيلات المجموعة. يمكن توفير وسيلة نقل عند الحاجة.',
-    'roots.p3':     'بين الجلسات، ستبقى قائدة مشروع صدقة على تواصل مع المشاركات لتقديم الدعم والإرشاد.',
+    'roots.p2':     'تستخدم الجلسات فوائد الطبيعة لمساعدة السيدات على الاسترخاء والتواصل والمشاركة في أنشطة مثل الفنون والحرف اليدوية والمشي والاسترخاء ودعم الأقران. تنتهي كل جلسة بوجبة مشتركة مجانية، تتشكّل وفق تفضيلات المجموعة. يمكن توفير وسيلة نقل عند الحاجة.',
+    'roots.p3':     'بين الجلسات، ستبقى قائدة مشروع الصداقة على تواصل مع المشاركات لتقديم الدعم والإرشاد.',
     'roots.d1.lbl': 'الموعد',
     'roots.d1.val': 'الخميس 10 صباحاً – 12:30 ظهراً · يبدأ 23 أبريل · 10 أسابيع',
     'roots.d2.lbl': 'المكان',
-    'roots.d2.val': 'مركز ويلسبرينج، شارع بيم، بريستول',
+    'roots.d2.val': 'Wellspring Centre<br>Beam Street<br>Bristol<br>BS5 9QY',
     'roots.d3.lbl': 'لمن هذا البرنامج',
-    'roots.d3.val': 'النساء الناطقات بالعربية في منطقة لورانس هيل اللواتي يعانين من العزلة أو تحديات الرفاه',
+    'roots.d3.val': 'النساء الناطقات بالعربية في لورنس هيل اللواتي يعانين من العزلة أو يواجهن تحديات في الصحة النفسية',
     'roots.d4.lbl': 'كيفية التسجيل',
-    'roots.d4.val': 'يمكن التسجيل الذاتي أو الإحالة عبر متخصص. تواصلي مع عزة في صدقة: <a href="mailto:info@sadaga.co.uk">info@sadaga.co.uk</a> أو يور بارك: <a href="mailto:roots@yourpark.org.uk">roots@yourpark.org.uk</a>',
+    'roots.d4.val': 'يمكن التسجيل الذاتي أو الإحالة عبر متخصص. تواصلي مع عزة في الصداقة: <a href="mailto:info@sadaga.co.uk">info@sadaga.co.uk</a> أو يور بارك: <a href="mailto:roots@yourpark.org.uk">roots@yourpark.org.uk</a>',
     'roots.collab': 'بالتعاون مع',
 
     /* Contact */
-    'con.tag':    'اتصلي بنا',
+    'con.tag':    'تواصلي معنا',
     'con.title':  'تعالي وابحثي عنّا',
     'con.sub':    'نلتقي كل يوم جمعة ونتشوق لاستقبالك. تواصلي معنا، نحن هنا للمساعدة.',
     'con.addr.lbl': 'العنوان',
-    'con.addr.val': 'مركز إيستون المسيحي للعائلة، شارع بوفورت، إيستون، بريستول BS5 0SQ',
+    'con.addr.val': 'Easton Christian Family Centre, Beaufort Street, Easton, Bristol BS5 0SQ',
     'con.hours.lbl': 'أوقات الفتح',
     'con.hours.val': 'أيام الجمعة، 10:00 صباحاً – 1:30 ظهراً',
     'con.email.lbl': 'البريد الإلكتروني',
@@ -341,13 +353,23 @@ const t = {
     'con.form.subject.opt2': 'التطوع',
     'con.form.subject.opt3': 'شراكة',
     'con.form.subject.opt4': 'استفسار عام',
+    'con.form.subject.opt5': 'أخرى',
+    'con.form.subject.other.lbl': 'يُرجى التحديد',
+    'con.form.success.title': 'تم إرسال رسالتك!',
+    'con.form.success.body':  'شكراً لتواصلكِ مع الصداقة. لقد استلمنا رسالتك وسنردّ عليكِ في أقرب وقت ممكن.',
+    'con.form.error.title':   'حدث خطأ ما',
+    'con.form.error.body':    'نأسف، حدث خطأ أثناء إرسال رسالتك. يُرجى المحاولة مرة أخرى أو التواصل معنا مباشرةً على info@sadaga.co.uk.',
+    'con.form.val.required':  'هذا الحقل مطلوب.',
+    'con.form.val.email':     'يُرجى إدخال عنوان بريد إلكتروني صحيح.',
+    'con.form.val.subject':   'يُرجى اختيار موضوع.',
+    'con.form.sending':       'جارٍ الإرسال…',
 
     /* Footer */
-    'foot.desc':     'مجموعة مجتمعية للنساء والأسر الناطقات بالعربية في بريستول، المملكة المتحدة. نلتقي كل جمعة منذ 2004.',
+    'foot.desc':     'مجموعة مجتمعية للسيدات الناطقات بالعربية في بريستول، المملكة المتحدة. نلتقي كل جمعة منذ 2006.',
     'foot.nav':      'التنقل',
     'foot.contact':  'اتصل بنا',
     'foot.follow':   'تابعينا',
-    'foot.copy':     '© 2025 صدقة CIC. شركة محدودة بالضمان. مسجلة في إنجلترا وويلز. رقم الشركة: 16836214',
+    'foot.copy':     '© 2025 الصداقة CIC. شركة محدودة بالضمان. مسجلة في إنجلترا وويلز. رقم الشركة: 16836214',
   }
 };
 
@@ -635,4 +657,143 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   initTestimonialsCarousel();
+  initPosterLightbox();
+  initContactForm();
+  initGalleryStrips();
 });
+
+function initGalleryStrips() {
+  document.querySelectorAll('.gallery__strip-track').forEach(track => {
+    track.innerHTML += track.innerHTML;
+  });
+}
+
+function initPosterLightbox() {
+  const thumb = document.getElementById('rootsPosterThumb');
+  const lb    = document.getElementById('posterLightbox');
+  const close = document.getElementById('lightboxClose');
+  if (!thumb || !lb) return;
+
+  thumb.addEventListener('click', () => lb.classList.add('is-open'));
+  close.addEventListener('click', () => lb.classList.remove('is-open'));
+  lb.addEventListener('click', e => { if (e.target === lb) lb.classList.remove('is-open'); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') lb.classList.remove('is-open'); });
+}
+
+function initContactForm() {
+  const form       = document.getElementById('contactForm');
+  const submitBtn  = document.getElementById('formSubmitBtn');
+  const successBox = document.getElementById('formSuccess');
+  const errorBox   = document.getElementById('formError');
+  if (!form) return;
+
+  const subjectOtherWrap = document.getElementById('subjectOtherWrap');
+
+  const fields = {
+    fname:        { el: form.querySelector('#fname'),        errorEl: form.querySelector('#fname-error') },
+    lname:        { el: form.querySelector('#lname'),        errorEl: form.querySelector('#lname-error') },
+    email:        { el: form.querySelector('#email'),        errorEl: form.querySelector('#email-error') },
+    subject:      { el: form.querySelector('#subject'),      errorEl: form.querySelector('#subject-error') },
+    subjectOther: { el: form.querySelector('#subjectOther'), errorEl: form.querySelector('#subject-other-error') },
+    message:      { el: form.querySelector('#message'),      errorEl: form.querySelector('#message-error') },
+  };
+
+  fields.subject.el.addEventListener('change', () => {
+    const isOther = fields.subject.el.value === 'other';
+    subjectOtherWrap.hidden = !isOther;
+    if (!isOther) { fields.subjectOther.el.value = ''; clearError(fields.subjectOther); }
+  });
+
+  function tr(key) {
+    return (t[currentLang] && t[currentLang][key]) || t.en[key] || '';
+  }
+
+  function setError(field, msg) {
+    field.el.setAttribute('aria-invalid', 'true');
+    field.errorEl.textContent = msg;
+  }
+
+  function clearError(field) {
+    field.el.removeAttribute('aria-invalid');
+    field.errorEl.textContent = '';
+  }
+
+  function validateAll() {
+    let valid = true;
+    const { fname, lname, email, subject, message } = fields;
+
+    if (!fname.el.value.trim())   { setError(fname,   tr('con.form.val.required')); valid = false; } else clearError(fname);
+    if (!lname.el.value.trim())   { setError(lname,   tr('con.form.val.required')); valid = false; } else clearError(lname);
+    if (!message.el.value.trim()) { setError(message, tr('con.form.val.required')); valid = false; } else clearError(message);
+    if (!subject.el.value)        { setError(subject, tr('con.form.val.subject'));   valid = false; } else clearError(subject);
+    if (subject.el.value === 'other' && !subjectOther.el.value.trim()) {
+      setError(subjectOther, tr('con.form.val.required')); valid = false;
+    } else { clearError(subjectOther); }
+
+    const emailVal = email.el.value.trim();
+    if (!emailVal) {
+      setError(email, tr('con.form.val.required')); valid = false;
+    } else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(emailVal)) {
+      setError(email, tr('con.form.val.email')); valid = false;
+    } else {
+      clearError(email);
+    }
+
+    return valid;
+  }
+
+  Object.values(fields).forEach(f => {
+    f.el.addEventListener('input',  () => clearError(f));
+    f.el.addEventListener('change', () => clearError(f));
+  });
+
+  function setLoading(on) {
+    submitBtn.disabled = on;
+    submitBtn.classList.toggle('is-loading', on);
+    const labelEl = submitBtn.querySelector('.btn-label');
+    if (labelEl) labelEl.textContent = on ? tr('con.form.sending') : tr('con.form.btn');
+  }
+
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    successBox.hidden = true;
+    errorBox.hidden   = true;
+
+    if (!validateAll()) return;
+
+    setLoading(true);
+
+    const subjectVal = fields.subject.el.value === 'other'
+      ? fields.subjectOther.el.value.trim()
+      : fields.subject.el.value;
+
+    const payload = {
+      fname:   fields.fname.el.value.trim(),
+      lname:   fields.lname.el.value.trim(),
+      email:   fields.email.el.value.trim(),
+      subject: subjectVal,
+      message: fields.message.el.value.trim(),
+      time:    new Date().toLocaleString('en-GB', { dateStyle: 'long', timeStyle: 'short' }),
+    };
+
+    try {
+      const res = await fetch('/api/send-email', {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body:    JSON.stringify(payload),
+      });
+
+      if (!res.ok) throw new Error('Server error');
+
+      form.reset();
+      Object.values(fields).forEach(f => clearError(f));
+      successBox.hidden = false;
+      successBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } catch {
+      errorBox.hidden = false;
+      errorBox.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } finally {
+      setLoading(false);
+    }
+  });
+}
