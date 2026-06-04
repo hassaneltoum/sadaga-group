@@ -972,6 +972,8 @@ body.lang-ar .activity-card__list--courses li { padding: .28rem .75rem !importan
   gap: 12px;
   width: max-content;
   animation: gallery-scroll 80s linear infinite;
+  animation-play-state: paused;
+  will-change: transform;
 }
 .gallery__strip-track--reverse {
   animation-direction: reverse;

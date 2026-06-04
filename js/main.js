@@ -316,7 +316,7 @@ const t = {
 
     /* Roots to Wellbeing */
     'roots.tag':    'برنامج جديد',
-    'roots.title':  'أنشطة الرفاه',
+    'roots.title':  'أنشطة الرفاهية',
     'roots.current': 'النشاط الحالي: Roots to Wellbeing',
     'roots.sub':    'مجموعة دعم تعتمد على الطبيعة للنساء الناطقات بالعربية في منطقة لورانس هيل، بالشراكة مع منظمة يور بارك.',
     'roots.p1':     'تُقدّم المجموعة مساحة آمنة مخصصة للنساء فقط، لمن يعانين من العزلة أو تحديات الحياة التي تؤثر على صحتهن النفسية. يمكن للمرأة أن تأتي برفقة داعمة أنثى إذا لزم الأمر.',
@@ -663,8 +663,23 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 function initGalleryStrips() {
-  document.querySelectorAll('.gallery__strip-track').forEach(track => {
+  const tracks = document.querySelectorAll('.gallery__strip-track');
+
+  // Clone each track so translateX(-50%) loops seamlessly
+  tracks.forEach(track => {
     track.innerHTML += track.innerHTML;
+  });
+
+  // Wait for every gallery image to have its real dimensions, then start scrolling
+  const imgs = Array.from(document.querySelectorAll('.gallery__strip-track img'));
+  const loads = imgs.map(img =>
+    img.complete
+      ? Promise.resolve()
+      : new Promise(res => { img.onload = res; img.onerror = res; })
+  );
+
+  Promise.all(loads).then(() => {
+    tracks.forEach(track => { track.style.animationPlayState = 'running'; });
   });
 }
 
