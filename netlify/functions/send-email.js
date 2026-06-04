@@ -35,7 +35,7 @@ exports.handler = async (event) => {
 
   try {
     await resend.emails.send({
-      from: process.env.RESEND_FROM_EMAIL || 'Sadaga Group <info@sadaga.co.uk>',
+      from: process.env.RESEND_FROM_EMAIL,
       to:   ['info@sadaga.co.uk'],
       reply_to: email,
       subject: `Website Enquiry — ${subjectLabel}`,
