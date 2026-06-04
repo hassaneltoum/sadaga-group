@@ -1638,8 +1638,9 @@ body.lang-ar .footer__col h4 { letter-spacing: 0; font-family: var(--ff-arabic);
 }
 
 /* ---------- RTL adjustments ---------- */
-body.lang-ar .nav__inner { direction: ltr; flex-direction: row-reverse; }
-body.lang-ar .nav__right { flex-direction: row-reverse; }
+body.lang-ar .nav__inner { direction: rtl; }
+body.lang-ar .nav__hamburger { direction: ltr; display: flex; }
+body.lang-ar .nav__hamburger span { display: block; }
 body.lang-ar .hero__inner { direction: rtl; }
 body.lang-ar .about__inner { direction: rtl; }
 body.lang-ar .hero__eyebrow { flex-direction: row-reverse; }
